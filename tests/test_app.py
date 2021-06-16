@@ -1,6 +1,6 @@
 import pytest
 
-from myapp.app import multiply_by_two, divide_by_two
+import multiply_by_two, divide_by_two
 
 
 @pytest.fixture
