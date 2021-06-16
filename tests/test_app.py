@@ -1,14 +1,12 @@
 import pytest
 
-import multiply_by_two, divide_by_two
-
+from myapp.app import multiply_by_two, divide_by_two
 
 @pytest.fixture
 def numbers():
     a = 10
     b = 20
     return [a,b]
-
 
 class TestApp:
     def test_multiplication(self, numbers):
