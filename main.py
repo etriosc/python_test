@@ -9,6 +9,6 @@ def main():
     print("The half of %d is %d" % (num, divide_by_two(num)))
     sys.exit(0)
 
-    
+
 if __name__ == "__main__":
     main()
